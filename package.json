@@ -1,0 +1,29 @@
+{
+  "name": "riot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron index.js",
+    "x64build": "electron-packager . riot --asar --platform=win32 --arch=x64 --out=dist64 --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gondr99/riot.git"
+  },
+  "author": "gondr99",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gondr99/riot/issues"
+  },
+  "homepage": "https://github.com/gondr99/riot#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "asar": "^2.0.1",
+    "electron": "^7.1.1",
+    "electron-packager": "^14.1.0"
+  }
+}
