@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "asar": "^2.0.1",
-    "electron": "^7.1.1",
+    "electron": "^11.5.0",
     "electron-packager": "^14.1.0"
   }
 }
